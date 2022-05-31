@@ -1,0 +1,16 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  background-color: var(--navy);
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-title {
+  color: whitesmoke;
+  font-size: 36px;
+}
