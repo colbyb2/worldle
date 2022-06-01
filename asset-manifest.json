@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/worldle/static/css/main.1c05e962.css",
+    "main.js": "/worldle/static/js/main.e6185bdf.js",
+    "index.html": "/worldle/index.html",
+    "main.1c05e962.css.map": "/worldle/static/css/main.1c05e962.css.map",
+    "main.e6185bdf.js.map": "/worldle/static/js/main.e6185bdf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c05e962.css",
+    "static/js/main.e6185bdf.js"
+  ]
+}
