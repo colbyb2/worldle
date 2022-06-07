@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  maxGuesses: 6,
+  maxGuesses: 7,
   guessNumber: 1,
   streakNumber: 0,
   gameOver: false,

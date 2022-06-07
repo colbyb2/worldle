@@ -34,7 +34,7 @@ function Body() {
   };
 
   useEffect(() => {
-    if (gameController.guessNumber > 6) {
+    if (gameController.guessNumber > gameController.maxGuesses) {
       setGameOver(true);
     }
   }, [gameController.guessNumber]);

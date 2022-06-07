@@ -53,7 +53,7 @@ function GameBoard({
       } else {
         //Lose
         setGuesses([...guesses, response]);
-        if (gameController.guessNumber === 6) {
+        if (gameController.guessNumber === gameController.maxGuesses) {
           setStreakNumber(0);
         }
       }
@@ -61,7 +61,7 @@ function GameBoard({
   };
 
   return (
-    <div className="">
+    <div className="table-container">
       {guesses.length === 0 ? null : (
         <div className="label-container">
           <div className="game-label"></div>
